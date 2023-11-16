@@ -1,0 +1,653 @@
+{
+  "kategoriler": [
+    {
+      "id": 1,
+      "ad": "Teknoloji"
+    },
+    {
+      "id": 2,
+      "ad": "Mobilya"
+    },
+    {
+      "id": 3,
+      "ad": "Mutfak"
+    },
+    {
+      "id": 4,
+      "ad": "Ev Eşyaları"
+    },
+    {
+      "id": 5,
+      "ad": "Müzik"
+    },
+    {
+      "id": 6,
+      "ad": "Film ve TV"
+    },
+    {
+      "id": 7,
+      "ad": "Giyim"
+    }
+  ],
+  "urunler": [
+    {
+      "id": 1,
+      "kategoriId": 1,
+      "baslik": "Yeni Teknoloji Trendleri",
+      "aciklama": "Yılın en yeni teknoloji trendlerini keşfedin. Teknoloji dünyasındaki son gelişmeleri ve gelecek vadeden teknolojileri bu yazımızda bulabilirsiniz. Yapay zeka, nesnelerin interneti ve diğer önemli konuları ele alıyoruz.",
+      "resim": "https://picsum.photos/800/600",
+      "favoriSayisi": 15,
+      "banner": "1",
+        "date": "2023-01-01",
+      "tag": [
+        "teknoloji",
+        "yapay zeka",
+        "nesnelerin interneti"
+      ]
+    },
+    {
+      "id": 2,
+      "kategoriId": 2,
+      "baslik": "Evrim Teorisi ve Bilimsel Tartışmalar",
+      "aciklama": "Evrim teorisinin bilimsel tartışmalara etkisi. Charles Darwin'in evrim teorisinin günümüzdeki yeri ve bilimsel topluluktaki tartışmaları ele alıyoruz.",
+      "resim": "https://picsum.photos/810/600",
+      "favoriSayisi": 10,
+      "banner": 1,
+      "date": "2023-01-01",
+      "tag": [
+        "evrim",
+        "bilim",
+        "darwin"
+      ]
+    },
+    {
+      "id": 3,
+      "kategoriId": 3,
+      "baslik": "Modern Sanat Akımları",
+      "aciklama": "Sanat dünyasındaki modern akımların incelenmesi. Çağdaş sanatın farklı akımları ve sanatçılarının eserleri üzerine detaylı bir bakış sunuyoruz.",
+      "resim": "https://picsum.photos/801/600",
+      "favoriSayisi": 20,
+      "banner": 0,
+      "date": "2023-05-11",
+      "tag": [
+        "sanat",
+        "çağdaş sanat",
+        "modern sanat"
+      ]
+    },
+    {
+      "id": 4,
+      "kategoriId": 4,
+      "baslik": "Sporun Yararları ve Egzersiz Tüyoları",
+      "aciklama": "Sağlıklı bir yaşam için sporun önemi ve etkili egzersiz tüyoları. Fiziksel aktivitenin beden ve zihin sağlığına olan olumlu etkilerini açıklıyoruz.",
+      "resim": "https://picsum.photos/802/600",
+      "favoriSayisi": 18,
+      "banner": 0,
+        "date": "2023-06-28",
+      "tag": [
+        "spor",
+        "egzersiz",
+        "sağlıklı yaşam"
+      ]
+    },
+    {
+      "id": 5,
+      "kategoriId": 5,
+      "baslik": "En Sevilen Müzik Türleri",
+      "aciklama": "Müzik dünyasının en sevilen türleri ve örnek parçalar. Farklı müzik türlerinin özellikleri ve popülerlik sebeplerini keşfedin.",
+      "resim": "https://picsum.photos/803/600",
+      "favoriSayisi": 22,
+      "banner": 1,
+        "date": "2023-07-15",
+      "tag": [
+        "müzik",
+        "müzik türleri",
+        "popüler müzik"
+      ]
+    },
+    {
+      "id": 6,
+      "kategoriId": 6,
+      "baslik": "2023 Yılında Çıkacak En İyi Filmler",
+      "aciklama": "Gelecek yıl vizyona girecek heyecan verici filmler. 2023'te beklenen ve izleyiciler tarafından merakla beklenen filmleri listeledik.",
+      "resim": "https://picsum.photos/800/601",
+      "favoriSayisi": 17,
+      "banner": 0,
+        "date": "2023-08-01",
+      "tag": [
+        "film",
+        "sinema",
+        "2023"
+      ]
+    },
+    {
+      "id": 7,
+      "kategoriId": 6,
+      "baslik": "Gezi Rehberi: Doğal Güzellikleri Keşfedin",
+      "aciklama": "Dünyanın dört bir yanındaki doğal güzellikleri ziyaret edin. En etkileyici doğa harikalarını ve keşfedilmeye değer yerleri rehberimizde bulabilirsiniz.",
+      "resim": "https://picsum.photos/800/602",
+      "favoriSayisi": 30,
+      "banner": 0,
+        "date": "2023-09-01",
+      "tag": [
+        "gezi",
+        "doğa",
+        "seyahat"
+      ]
+    },
+    {
+      "id": 8,
+      "kategoriId": 2,
+      "baslik": "Son Moda Trendleri",
+      "aciklama": "Sezonun en trend moda parçalarını keşfedin. Moda dünyasındaki son gelişmeleri, tasarımcıların önerilerini ve kombin önerilerini paylaşıyoruz.",
+      "resim": "https://picsum.photos/800/603",
+      "favoriSayisi": 25,
+      "banner": 0,
+        "date": "2023-10-01",
+      "tag": [
+        "moda",
+        "trend",
+        "giyim"
+      ]
+    },
+    {
+      "id": 9,
+      "kategoriId": 3,
+      "baslik": "Okunması Gereken En İyi Kitaplar",
+      "aciklama": "Edebiyat dünyasının başyapıtlarını keşfedin. Klasik eserlerden çağdaş romanlara, okunması gereken en iyi kitapları sıralıyoruz.",
+      "resim": "https://picsum.photos/804/600",
+      "favoriSayisi": 28,
+      "banner": 0,
+        "date": "2023-11-01",
+      "tag": [
+        "kitap",
+        "edebiyat",
+        "klasik"
+      ]
+    },
+    {
+      "id": 10,
+      "kategoriId": 4,
+      "baslik": "Lezzetli ve Sağlıklı Yemek Tarifleri",
+      "aciklama": "Sağlıklı yaşam için lezzetli yemek tarifleri. Kolayca hazırlanabilen ve besleyici yemek tariflerini bu yazımızda bulabilirsiniz.",
+      "resim": "https://picsum.photos/800/605",
+      "favoriSayisi": 32,
+      "banner": 1,
+        "date": "2023-12-01",
+      "tag": [
+        "yemek",
+        "tarif",
+        "sağlıklı yaşam"
+      ]
+    },
+    {
+      "id": 11,
+      "kategoriId": 1,
+      "baslik": "Yeni Teknoloji Trendleri",
+      "aciklama": "Yılın en yeni teknoloji trendlerini keşfedin. Teknoloji dünyasındaki son gelişmeleri ve gelecek vadeden teknolojileri bu yazımızda bulabilirsiniz. Yapay zeka, nesnelerin interneti ve diğer önemli konuları ele alıyoruz.",
+      "resim": "https://picsum.photos/805/600",
+      "favoriSayisi": 15,
+      "banner": 0,
+      "date": "2023-01-01",
+      "tag": [
+        "teknoloji",
+        "yapay zeka",
+        "nesnelerin interneti"
+      ]
+    },
+    {
+      "id": 12,
+      "kategoriId": 2,
+      "baslik": "Evrim Teorisi ve Bilimsel Tartışmalar",
+      "aciklama": "Evrim teorisinin bilimsel tartışmalara etkisi. Charles Darwin'in evrim teorisinin günümüzdeki yeri ve bilimsel topluluktaki tartışmaları ele alıyoruz.",
+      "resim": "https://picsum.photos/800/606",
+      "favoriSayisi": 10,
+      "banner": 0,
+        "date": "2023-06-11",
+      "tag": [
+        "evrim",
+        "bilim",
+        "darwin"
+      ]
+    },
+    {
+      "id": 13,
+      "kategoriId": 3,
+      "baslik": "Modern Sanat Akımları",
+      "aciklama": "Sanat dünyasındaki modern akımların incelenmesi. Çağdaş sanatın farklı akımları ve sanatçılarının eserleri üzerine detaylı bir bakış sunuyoruz.",
+      "resim": "https://picsum.photos/806/600",
+      "favoriSayisi": 20,
+      "banner": 0,
+        "date": "2023-07-28",
+      "tag": [
+        "sanat",
+        "çağdaş sanat",
+        "modern sanat"
+      ]
+    },
+    {
+      "id": 14,
+      "kategoriId": 4,
+      "baslik": "Sporun Yararları ve Egzersiz Tüyoları",
+      "aciklama": "Sağlıklı bir yaşam için sporun önemi ve etkili egzersiz tüyoları. Fiziksel aktivitenin beden ve zihin sağlığına olan olumlu etkilerini açıklıyor.",
+      "resim": "https://picsum.photos/800/607",
+      "favoriSayisi": 18,
+      "banner": 0,
+        "date": "2023-08-15",
+      "tag": [
+        "spor",
+        "egzersiz",
+        "sağlıklı yaşam"
+      ]
+    },
+    {
+      "id": 15,
+      "kategoriId": 5,
+      "baslik": "En Sevilen Müzik Türleri",
+      "aciklama": "Müzik dünyasının en sevilen türleri ve örnek parçalar. Farklı müzik türlerinin özellikleri ve popülerlik sebeplerini keşfedin.",
+      "resim": "https://picsum.photos/808/600",
+      "favoriSayisi": 22,
+      "banner": 1,
+        "date": "2023-09-01",
+      "tag": [
+        "müzik",
+        "müzik türleri",
+        "popüler müzik"
+      ]
+    },
+    {
+      "id": 16,
+      "kategoriId": 6,
+      "baslik": "2023 Yılında Çıkacak En İyi Filmler",
+      "aciklama": "Gelecek yıl vizyona girecek heyecan verici filmler. 2023'te beklenen ve izleyiciler tarafından merakla beklenen filmleri listeledik.",
+      "resim": "https://picsum.photos/800/609",
+      "favoriSayisi": 17,
+      "banner": 0,
+        "date": "2023-10-01",
+      "tag": [
+        "film",
+        "sinema",
+        "2023"
+      ]
+    },
+    {
+      "id": 17,
+      "kategoriId": 6,
+      "baslik": "Gezi Rehberi: Doğal Güzellikleri Keşfedin",
+      "aciklama": "Dünyanın dört bir yanındaki doğal güzellikleri ziyaret edin. En etkileyici doğa harikalarını ve keşfedilmeye değer yerleri rehberimizde bulabilirsiniz.",
+      "resim": "https://picsum.photos/809/600",
+      "favoriSayisi": 30,
+      "banner": 0,
+        "date": "2023-11-01",
+      "tag": [
+        "gezi",
+        "doğa",
+        "seyahat"
+      ]
+    },
+    {
+      "id": 18,
+      "kategoriId": 6,
+      "baslik": "Son Moda Trendleri",
+      "aciklama": "Sezonun en trend moda parçalarını keşfedin. Moda dünyasındaki son gelişmeleri, tasarımcıların önerilerini ve kombin önerilerini paylaşıyoruz.",
+      "resim": "https://picsum.photos/800/610",
+      "favoriSayisi": 25,
+      "banner": 0,
+        "date": "2023-12-01",
+      "tag": [
+        "moda",
+        "trend",
+        "giyim"
+      ]
+    },
+    {
+      "id": 19,
+      "kategoriId": 6,
+      "baslik": "Okunması Gereken En İyi Kitaplar",
+      "aciklama": "Edebiyat dünyasının başyapıtlarını keşfedin. Klasik eserlerden çağdaş romanlara, okunması gereken en iyi kitapları sıralıyoruz.",
+      "resim": "https://picsum.photos/811/600",
+      "favoriSayisi": 28,
+      "banner": 1,
+        "date": "2023-01-01",
+      "tag": [
+        "kitap",
+        "edebiyat",
+        "klasik"
+      ]
+    },
+    {
+      "id": 20,
+      "kategoriId": 6,
+      "baslik": "Lezzetli ve Sağlıklı Yemek Tarifleri",
+      "aciklama": "Sağlıklı yaşam için lezzetli yemek tarifleri. Kolayca hazırlanabilen ve besleyici yemek tariflerini bu yazımızda bulabilirsiniz.",
+      "resim": "https://picsum.photos/800/611",
+      "favoriSayisi": 32,
+      "banner": 0,
+        "date": "2023-02-01",
+      "tag": [
+        "yemek",
+        "tarif",
+        "sağlıklı yaşam"
+      ]
+    },
+    {
+      "id": 21,
+      "kategoriId": 1,
+      "baslik": "Yeni Teknoloji Trendleri",
+      "aciklama": "Yılın en yeni teknoloji trendlerini keşfedin. Teknoloji dünyasındaki son gelişmeleri ve gelecek vadeden teknolojileri bu yazımızda bulabilirsiniz. Yapay zeka, nesnelerin interneti ve diğer önemli konuları ele alıyoruz.",
+      "resim": "https://picsum.photos/812/600",
+      "favoriSayisi": 15,
+      "banner": 0,
+      "date": "2023-03-01",
+      "tag": [
+        "teknoloji",
+        "yapay zeka",
+        "nesnelerin interneti"
+      ]
+    },
+    {
+      "id": 22,
+      "kategoriId": 2,
+      "baslik": "Evrim Teorisi ve Bilimsel Tartışmalar",
+      "aciklama": "Evrim teorisinin bilimsel tartışmalara etkisi. Charles Darwin'in evrim teorisinin günümüzdeki yeri ve bilimsel topluluktaki tartışmaları ele alıyoruz.",
+      "resim": "https://picsum.photos/800/612",
+      "favoriSayisi": 10,
+      "banner": 0,
+        "date": "2023-04-01",
+      "tag": [
+        "evrim",
+        "bilim",
+        "darwin"
+      ]
+    },
+    {
+      "id": 23,
+      "kategoriId": 3,
+      "baslik": "Modern Sanat Akımları",
+      "aciklama": "Sanat dünyasındaki modern akımların incelenmesi. Çağdaş sanatın farklı akımları ve sanatçılarının eserleri üzerine detaylı bir bakış sunuyoruz.",
+      "resim": "https://picsum.photos/813/600",
+      "favoriSayisi": 20,
+      "banner": 0,
+        "date": "2023-05-01",
+      "tag": [
+        "sanat",
+        "çağdaş sanat",
+        "modern sanat"
+      ]
+    },
+    {
+      "id": 24,
+      "kategoriId": 4,
+      "baslik": " Sporun Yararları ve Egzersiz Tüyoları",
+      "aciklama": "Sağlıklı bir yaşam için sporun önemi ve etkili egzersiz tüyoları. Fiziksel aktivitenin beden ve zihin sağlığına olan olumlu etkilerini açıklıyor.",
+      "resim": "https://picsum.photos/800/613",
+      "favoriSayisi": 18,
+      "banner": 0,
+        "date": "2023-06-01",
+      "tag": [
+        "spor",
+        "egzersiz",
+        "sağlıklı yaşam"
+      ]
+    }
+  ],
+  "bloglar": [
+    {
+      "id": 1,
+      "kategoriId": 1,
+      "baslik": "Süper Cep Telefonu",
+      "aciklama": "Yeni nesil süper cep telefonu! Yüksek performans, uzun pil ömrü ve muhteşem kamera özellikleriyle.",
+      "resim": "https://picsum.photos/1000/600",
+      "favoriSayisi": 35,
+      "banner": 0,
+      "date": "2023-11-16",
+      "fiyat": 1500,
+      "tag": [
+        "teknoloji",
+        "akıllı telefon",
+        "yeni ürün"
+      ]
+    },
+    
+    {
+      "id": 2,
+      "kategoriId": 2,
+      "baslik": "Ergonomik Ofis Koltuğu",
+      "aciklama": "Sırt desteği ile ergonomik ofis koltuğu. Uzun saatler boyunca rahat çalışma deneyimi sunar.",
+      "resim": "https://picsum.photos/1100/600",
+      "favoriSayisi": 12,
+      "banner": 1,
+      "date": "2023-11-15",
+      "fiyat": 300,
+      "tag": [
+        "ofis mobilyaları",
+        "ergonomi",
+        "rahatlık"
+      ]
+    },
+    {
+      "id": 3,
+      "kategoriId": 1,
+      "baslik": "Ultra HD Akıllı Televizyon",
+      "aciklama": "4K çözünürlüklü akıllı televizyon. Sinema kalitesinde görüntü ve akıllı özelliklerle.",
+      "resim": "https://picsum.photos/1200/600",
+      "favoriSayisi": 28,
+      "banner": 0,
+      "date": "2023-11-14",
+      "fiyat": 2500,
+      "tag": [
+        "ev elektroniği",
+        "akıllı televizyon",
+        "4K"
+      ]
+    },
+    {
+      "id": 4,
+      "kategoriId": 1,
+      "baslik": "Kablosuz Kulaklık",
+      "aciklama": "Sınırsız özgürlük! Bluetooth bağlantılı kablosuz kulaklık.",
+      "resim": "https://picsum.photos/1300/600",
+      "favoriSayisi": 45,
+      "banner": 1,
+      "date": "2023-11-13",
+      "fiyat": 120,
+      "tag": [
+        "teknoloji",
+        "kulaklık",
+        "bluetooth"
+      ]
+    },
+    {
+      "id": 5,
+      "kategoriId": 3,
+      "baslik": "Modern Mutfak Seti",
+      "aciklama": "Şık ve modern tasarımlı mutfak seti. Kaliteli malzemelerle uzun ömürlü kullanım.",
+      "resim": "https://picsum.photos/1400/600",
+      "favoriSayisi": 18,
+      "banner": 0,
+      "date": "2023-11-12",
+      "fiyat": 800,
+      "tag": [
+        "ev eşyaları",
+        "mutfak gereçleri",
+        "tasarım"
+      ]
+    },
+    {
+      "id": 6,
+      "kategoriId": 1,
+      "baslik": "Kablosuz Fare",
+      "aciklama": "Ergonomik tasarımlı kablosuz fare. Hızlı ve hassas kullanım.",
+      "resim": "https://picsum.photos/1500/600",
+      "favoriSayisi": 25,
+      "banner": 0,
+      "date": "2023-11-11",
+      "fiyat": 50,
+      "tag": [
+        "bilgisayar aksesuarları",
+        "fare",
+        "ergonomi"
+      ]
+    },
+    {
+      "id": 7,
+      "kategoriId": 1,
+      "baslik": "Akıllı Ev Kamera Sistemi",
+      "aciklama": "Ev güvenliğinizi sağlayan akıllı kamera sistemi. Uzaktan izleme ve hareket algılama özellikleri.",
+      "resim": "https://picsum.photos/1600/600",
+      "favoriSayisi": 30,
+      "banner": 1,
+      "date": "2023-11-10",
+      "fiyat": 350,
+      "tag": [
+        "ev güvenlik",
+        "akıllı ev",
+        "güvenlik kamerası"
+      ]
+    },
+    {
+      "id": 8,
+      "kategoriId": 4,
+      "baslik": "Yumuşak Dokulu Halı",
+      "aciklama": "Yumuşak ve şık tasarımlı salon halısı. Yüksek kaliteli malzemelerle uzun ömürlü kullanım.",
+      "resim": "https://picsum.photos/1700/600",
+      "favoriSayisi": 14,
+      "banner": 0,
+      "date": "2023-11-09",
+      "fiyat": 200,
+      "tag": [
+        "ev dekorasyonu",
+        "halı",
+        "şık"
+      ]
+    },
+    {
+      "id": 9,
+      "kategoriId": 1,
+      "baslik": "Taşınabilir Harici SSD",
+      "aciklama": "Hızlı veri transferi sağlayan taşınabilir SSD. Yüksek depolama kapasitesi ve dayanıklı tasarım.",
+      "resim": "https://picsum.photos/1800/600",
+      "favoriSayisi": 20,
+      "banner": 0,
+      "date": "2023-11-08",
+      "fiyat": 180,
+      "tag": [
+        "teknoloji",
+        "harici depolama",
+        "SSD"
+      ]
+    },
+    {
+      "id": 10,
+      "kategoriId": 7,
+      "baslik": "Sporcu Spor Ayakkabı",
+      "aciklama": "Yüksek performanslı sporcu ayakkabısı. Rahatlık ve dayanıklılık sağlar.",
+      "resim": "https://picsum.photos/1900/600",
+      "favoriSayisi": 18,
+      "banner": 0,
+      "date": "2023-11-07",
+      "fiyat": 120,
+      "tag": [
+        "spor",
+        "spor ayakkabısı",
+        "dayanıklı"
+      ]
+    },
+    {
+      "id": 11,
+      "kategoriId": 4,
+      "baslik": "Ahşap Çocuk Oyuncakları Seti",
+      "aciklama": "Doğal ahşap oyuncak seti. Çocukların yaratıcılığını geliştirmeye yardımcı olur.",
+      "resim": "https://picsum.photos/1000/700",
+      "favoriSayisi": 10,
+      "banner": 1,
+      "date": "2023-11-06",
+      "fiyat": 80,
+      "tag": [
+        "oyuncak",
+        "ahşap",
+        "çocuk ürünleri"
+      ]
+    },
+    {
+      "id": 12,
+      "kategoriId": 7,
+      "baslik": "Yazlık Kadın Elbise",
+      "aciklama": "Rahat ve şık tasarımlı yazlık kadın elbisesi. Yaz mevsimine uygun.",
+      "resim": "https://picsum.photos/1000/800",
+      "favoriSayisi": 22,
+      "banner": 1,
+      "date": "2023-11-05",
+      "fiyat": 90,
+      "tag": [
+        "giyim",
+        "kadın elbise",
+        "yazlık"
+      ]
+    },
+    {
+      "id": 13,
+      "kategoriId": 2,
+      "baslik": "Kitaplık TV Ünitesi",
+      "aciklama": "Modern tarzda kitaplık ve TV ünitesi. Fonksiyonel depolama alanı sunar.",
+      "resim": "https://picsum.photos/1000/900",
+      "favoriSayisi": 15,
+      "banner": 1,
+      "date": "2023-11-04",
+      "fiyat": 300,
+      "tag": [
+        "mobilya",
+        "depolama",
+        "kitaplık"
+      ]
+    },
+    {
+      "id": 14,
+      "kategoriId": 3,
+      "baslik": "Bıçak Seti",
+      "aciklama": "Kaliteli çelikten üretilmiş mutfak bıçak seti. Keskin ve dayanıklı bıçaklar.",
+      "resim": "https://picsum.photos/1000/1000",
+      "favoriSayisi": 28,
+      "banner": 0,
+      "date": "2023-11-03",
+      "fiyat": 150,
+      "tag": [
+        "mutfak gereçleri",
+        "bıçak seti",
+        "kaliteli çelik"
+      ]
+    },
+    {
+      "id": 15,
+      "kategoriId": 3,
+      "baslik": "Seramik Tencere Seti",
+      "aciklama": "Yüksek kaliteli seramik tencere seti. Anti yapışma ve dayanıklı yapısıyla.",
+      "resim": "https://picsum.photos/1000/1100",
+      "favoriSayisi": 20,
+      "banner": 0,
+      "date": "2023-11-02",
+      "fiyat": 250,
+      "tag": [
+        "mutfak gereçleri",
+        "seramik tencere",
+        "dayanıklı"
+      ]
+    },
+    {
+      "id": 16,
+      "kategoriId": 1,
+      "baslik": "Mutfak Tartı Cihazı",
+      "aciklama": "Hassas ölçümler için elektronik mutfak tartı cihazı. Şık ve kullanışlı tasarım.",
+      "resim": "https://picsum.photos/1000/1200",
+      "favoriSayisi": 15,
+      "banner": 1,
+      "date": "2023-11-01",
+      "fiyat": 50,
+      "tag": [
+        "mutfak gereçleri",
+        "tartı cihazı",
+        "hassas ölçüm"
+      ]
+    }
+  ]
+}
